@@ -7,4 +7,5 @@
 # Mobile view of Employees 
 ![employee-mb](https://github.com/Mahnoor12Fatima/angular-tailwind-template/assets/100063303/7d1178e1-564c-4641-9dae-cc4bac52cfa1)
 # Mobile view of Employees with sidebar 
-![sidebar](https://github.com/Mahnoor12Fatima/angular-tailwind-template/assets/100063303/8e6785d8-1686-4955-b488-0154b71f5356)
+![sidebar (2)](https://github.com/Mahnoor12Fatima/angular-tailwind-template/assets/100063303/8b983e1f-87e2-4b62-b5fd-8cd816ac2947)
+
