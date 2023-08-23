@@ -7,18 +7,8 @@
             alt="Your Company">
         </div>
         <div class="space-y-1 px-2 pb-[26px] pt-3 ">
-          <a routerLink="/list" class="parent-hover:text-white focus:bg-gray-700  hover:bg-gray-700  block rounded-md  text-base font-medium"
-            role="menuitem" tabindex="-1" id="menu-item-0">
-            <div class="flex text-gray-400  pl-4 py-2 rounded-md  hover:bg-gray-700 hover:text-white  ">
-              <svg class="w-5 h-5  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 20 20">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M3 8v10a1 1 0 0 0 1 1h4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h4a1 1 0 0 0 1-1V8M1 10l9-9 9 9" />
-              </svg>
-              <p class="pl-3">Food List</p>
-            </div>
-          </a>
-          <a routerLink="/today"
+
+          <a routerLink="/"
             class="parent-hover:text-white focus:bg-gray-700 hover:bg-gray-700  block rounded-md  text-base font-medium"
             role="menuitem" tabindex="-1" id="menu-item-0">
             <div
@@ -28,7 +18,20 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
               </svg>
-              <p class="pl-3">Today</p>
+              <p class="pl-3">Employees</p>
+            </div>
+          </a>
+          <a routerLink="/foodList"
+            class="parent-hover:text-white focus:bg-gray-700  hover:bg-gray-700  block rounded-md  text-base font-medium"
+            role="menuitem" tabindex="-1" id="menu-item-0">
+            <div class="flex text-gray-400  pl-3 py-2 rounded-md  hover:bg-gray-700 hover:text-white  ">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm0 0h10a6 6 0 0 1 6 6v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a6 6 0 0 1 6-6zm2 2v6m0 0V5m0 6h10m-10 0H8zm0 0v6m10-6v6">
+                </path>
+              </svg>
+              <p class="pl-3">Food List</p>
             </div>
           </a>
           <a routerLink="/chart"
@@ -39,9 +42,9 @@
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                  d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
               </svg>
-              <p class="pl-3">Chart</p>
+              <p class="pl-3">Charts</p>
             </div>
           </a>
           <a href="#"
@@ -126,18 +129,7 @@
                 </svg>
               </button>
             </div>
-            <a routerLink="/list" class="parent-hover:text-white focus:bg-gray-700 hover:bg-gray-700  block rounded-md  text-base font-medium"
-              role="menuitem" tabindex="-1" id="menu-item-0">
-              <div class="flex text-gray-400 pl-3 py-2 rounded-md hover:text-white   hover:bg-gray-700  ">
-                <svg class="w-5 h-5  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                  viewBox="0 0 20 20">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 8v10a1 1 0 0 0 1 1h4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h4a1 1 0 0 0 1-1V8M1 10l9-9 9 9" />
-                </svg>
-                <p class="pl-3">Food List</p>
-              </div>
-            </a>
-            <a routerLink="/today"
+            <a routerLink="/"
               class="parent-hover:text-white focus:bg-gray-700 hover:bg-gray-700  block rounded-md  text-base font-medium"
               role="menuitem" tabindex="-1" id="menu-item-0">
               <div
@@ -147,7 +139,20 @@
                   <path stroke-linecap="round" stroke-linejoin="round"
                     d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
                 </svg>
-                <p class="pl-3">Today</p>
+                <p class="pl-3">Employees</p>
+              </div>
+            </a>
+            <a routerLink="/foodList"
+              class="parent-hover:text-white focus:bg-gray-700 hover:bg-gray-700  block rounded-md  text-base font-medium"
+              role="menuitem" tabindex="-1" id="menu-item-0">
+              <div class="flex text-gray-400 pl-3 py-2 rounded-md hover:text-white   hover:bg-gray-700  ">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm0 0h10a6 6 0 0 1 6 6v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a6 6 0 0 1 6-6zm2 2v6m0 0V5m0 6h10m-10 0H8zm0 0v6m10-6v6">
+                </path>
+              </svg>
+                <p class="pl-3">Food List</p>
               </div>
             </a>
             <a routerLink="/chart"
@@ -158,9 +163,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                   stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                    d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
                 </svg>
-                <p class="pl-3">Chart</p>
+                <p class="pl-3">Charts</p>
               </div>
             </a>
             <a href="#"
@@ -232,11 +237,12 @@
                 </div>
               </a>
             </div>
-            </aside>
+          </aside>
         </div>
       </div>
       <div class=" w-full md:w-screen sm:w-screen overflow-hidden lg:w-4/5  ">
-        <div id="bar" class="flex items-center shadow-sm bg-white py-2 sm:flow-root md:flow-root lg:flow-root flow-root overflow-hidden">
+        <div id="bar"
+          class="flex items-center shadow-sm bg-white py-2 sm:flow-root md:flow-root lg:flow-root flow-root overflow-hidden">
           <div class="sm:float-left lg:float-left float-left md:float-left flex">
             <button (click)="mobileMenu = !mobileMenu">
               <div id="pop" class="px-5 text-gray-400 lg:hidden  border-r">
@@ -293,7 +299,8 @@
           </div>
         </div>
         <article class="lg:p-7 sm:p-5 p-5   min-h-screen   ">
-          <div class="content border-gray-200 bg-white rounded-md  relative shadow-sm dark:bg-gray-800 dark:border-gray-700 p-3 sm:p-3 lg:p-3  w-full">
+          <div
+            class="content border-gray-200 bg-white rounded-md  relative shadow-sm dark:bg-gray-800 dark:border-gray-700 p-3 sm:p-3 lg:p-3  w-full">
             <router-outlet></router-outlet>
           </div>
         </article>
@@ -301,4 +308,3 @@
     </div>
   </section>
 </div>
-

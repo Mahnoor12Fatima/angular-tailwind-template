@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ChartComponent } from './chart/chart.component';
-import { FoodListComponent } from './food-list/food-list.component';
-import { TodayComponent } from './today/today.component';
-
+import { EmployeeComponent } from './employees/employee.component';
+import{FoodListComponent} from './food-list/food-list.component';
 const routes: Routes = [
   {path: 'chart', component: ChartComponent },
-  {path: 'today', component: TodayComponent },
-  {path: 'list', component: FoodListComponent },
-  {path: '', component: FoodListComponent }];
+  {path: 'foodList', component: FoodListComponent },
+  {path: 'employee', component: EmployeeComponent },
+  {path: '', component: EmployeeComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
